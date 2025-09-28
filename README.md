@@ -1,2 +1,2 @@
 # Algorithm-Practice
-Leetcode 
+Record Leetcode Practice
