@@ -20,3 +20,17 @@ class Solution:
             return res
         qn = mat_pow(n)
         return qn[2]
+    
+
+
+import math
+class Solution:
+    def fib(self, n: int) -> int:
+        if n <2:
+            return n
+        sqrt5 = math.sqrt(5)
+        a = (1+sqrt(5))/2
+        b = (1-sqrt(5))/2
+        solution = (a**n-b**n)/sqrt5
+        return round(solution)
+        
